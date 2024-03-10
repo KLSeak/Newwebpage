@@ -1,0 +1,41 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 500px;
+}
+
+ .item {
+    flex: 1;
+    height: 100%;
+ }
+
+ .item:nth-child(1) {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c162d2c-677c-4d5a-b216-75cec0fa67e3/dg7uwtm-6dd63147-295f-4a68-a8d0-66ba25c22c11.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljMTYyZDJjLTY3N2MtNGQ1YS1iMjE2LTc1Y2VjMGZhNjdlM1wvZGc3dXd0bS02ZGQ2MzE0Ny0yOTVmLTRhNjgtYThkMC02NmJhMjVjMjJjMTEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8sWrlh7YWEKgHLMKguru4Pm_NEE7ziQsNicNS_Q_AhU");
+ }
+
+ .item:nth-child(2) {
+    background-image: url("https://ctrlgeekgirl.files.wordpress.com/2020/08/105692432_4220169661334196_3931776789144258780_o.jpg");
+ }
+
+ .item:nth-child(3) {
+    background-image: url("https://i.pinimg.com/736x/dd/68/9b/dd689b91b73881b3e37897364c3f051b.jpg");
+ }
+
+ .item:nth-child(4) {
+    background-image: url("https://cdn.tatlerasia.com/tatlerasia/i/2023/05/29165510-hakken-0339-1_cover_1000x1334.jpg");
+ }
+
+ .item:nth-child(5) {
+    background-image: url("https://preview.redd.it/hakken-ryou-cosplayer-v0-kt4l3i16173a1.jpg?width=640&crop=smart&auto=webp&s=ae156227abc07951a1117046f181084c15636933");
+ }
+
+ .item {
+    background-position: center;
+    background-size: cover;
+    transition: flex 0.8s ease;
+ }
+
+ .item:hover {
+    flex: 5;
+ }
